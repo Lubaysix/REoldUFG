@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f164ce8672b73de44832eba2b2813fb2, type: 3}
+  m_Name: InventoryDatabase
+  m_EditorClassIdentifier: 
+  Items:
+  - Name: Knife
+    id: 0
+    type: 1
+    Icon: {fileID: 2767800625355922470, guid: 95d756a766a607b479acfe7e38e5c819, type: 3}
+    BigIcon: {fileID: 2767800625355922470, guid: 95d756a766a607b479acfe7e38e5c819,
+      type: 3}
+    Model: {fileID: 5286920655189626665, guid: edfd62d0cb7fed749b71e734194b48d3, type: 3}
+    maxAmount: 1
+    SizeInSlot: {x: 1, y: 1, z: 1}
+    Possible_Combinations: []
+    Damage: 10
+    Heal: 0
+    maxAmmo: 0
+    initialAmmo: 0
+    AmmoItemID: 0
+    AttackSClip: {fileID: 8300000, guid: 4a9cb71d17868e148af1124826a9c520, type: 3}
+    NoAmmoSClip: {fileID: 0}
+    ReloadSClip: {fileID: 0}
+    Particles: []
+  - Name: Green Herb
+    id: 1
+    type: 2
+    Icon: {fileID: -2151665033689436585, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c, type: 3}
+    BigIcon: {fileID: -2151665033689436585, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c,
+      type: 3}
+    Model: {fileID: 5358692646375337045, guid: 40748e60d2c829c4e8bfa934ebc90622, type: 3}
+    maxAmount: 1
+    SizeInSlot: {x: 0.35, y: 0.35, z: 0.35}
+    Possible_Combinations:
+    - Combination_Name: G+R
+      combinable_id: 2
+      converted_id: 5
+      type: 0
+      Optional_Message: 
+    - Combination_Name: G+B
+      combinable_id: 3
+      converted_id: 6
+      type: 0
+      Optional_Message: 
+    - Combination_Name: G+G
+      combinable_id: 1
+      converted_id: 4
+      type: 0
+      Optional_Message: 
+    - Combination_Name: G+G+G
+      combinable_id: 4
+      converted_id: 7
+      type: 0
+      Optional_Message: 
+    Damage: 0
+    Heal: 26
+    maxAmmo: 0
+    initialAmmo: 0
+    AmmoItemID: 0
+    AttackSClip: {fileID: 0}
+    NoAmmoSClip: {fileID: 0}
+    ReloadSClip: {fileID: 0}
+    Particles: []
+  - Name: Red Herb
+    id: 2
+    type: 5
+    Icon: {fileID: -4755186627712010610, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c, type: 3}
+    BigIcon: {fileID: -4755186627712010610, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c,
+      type: 3}
+    Model: {fileID: 5358692646375337045, guid: 40748e60d2c829c4e8bfa934ebc90622, type: 3}
+    maxAmount: 1
+    SizeInSlot: {x: 0.35, y: 0.35, z: 0.35}
+    Possible_Combinations:
+    - Combination_Name: R+G
+      combinable_id: 1
+      converted_id: 5
+      type: 0
+      Optional_Message: 
+    - Combination_Name: R+G+B
+      combinable_id: 6
+      converted_id: 9
+      type: 0
+      Optional_Message: 
+    Damage: 0
+    Heal: 0
+    maxAmmo: 0
+    initialAmmo: 0
+    AmmoItemID: 0
+    AttackSClip: {fileID: 0}
+    NoAmmoSClip: {fileID: 0}
+    ReloadSClip: {fileID: 0}
+    Particles: []
+  - Name: Blue Herb
+    id: 3
+    type: 3
+    Icon: {fileID: 6732814970553283, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c, type: 3}
+    BigIcon: {fileID: 6732814970553283, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c, type: 3}
+    Model: {fileID: 5358692646375337045, guid: 40748e60d2c829c4e8bfa934ebc90622, type: 3}
+    maxAmount: 1
+    SizeInSlot: {x: 0.35, y: 0.35, z: 0.35}
+    Possible_Combinations:
+    - Combination_Name: B+G
+      combinable_id: 1
+      converted_id: 6
+      type: 0
+      Optional_Message: 
+    - Combination_Name: B+G+G
+      combinable_id: 4
+      converted_id: 8
+      type: 0
+      Optional_Message: 
+    - Combination_Name: R+G+B
+      combinable_id: 5
+      converted_id: 9
+      type: 0
+      Optional_Message: 
+    Damage: 0
+    Heal: 0
+    maxAmmo: 0
+    initialAmmo: 0
+    AmmoItemID: 0
+    AttackSClip: {fileID: 0}
+    NoAmmoSClip: {fileID: 0}
+    ReloadSClip: {fileID: 0}
+    Particles: []
+  - Name: Mixed Herb G+G
+    id: 4
+    type: 2
+    Icon: {fileID: -6801612637879155227, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c, type: 3}
+    BigIcon: {fileID: -6801612637879155227, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c,
+      type: 3}
+    Model: {fileID: 0}
+    maxAmount: 1
+    SizeInSlot: {x: 0.35, y: 0.35, z: 0.35}
+    Possible_Combinations:
+    - Combination_Name: G+G+G
+      combinable_id: 1
+      converted_id: 7
+      type: 0
+      Optional_Message: 
+    - Combination_Name: G+G+B
+      combinable_id: 3
+      converted_id: 8
+      type: 0
+      Optional_Message: 
+    Damage: 0
+    Heal: 50
+    maxAmmo: 0
+    initialAmmo: 0
+    AmmoItemID: 0
+    AttackSClip: {fileID: 0}
+    NoAmmoSClip: {fileID: 0}
+    ReloadSClip: {fileID: 0}
+    Particles: []
+  - Name: Mixed Herb R+G
+    id: 5
+    type: 2
+    Icon: {fileID: 7325747066614750472, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c, type: 3}
+    BigIcon: {fileID: 7325747066614750472, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c,
+      type: 3}
+    Model: {fileID: 0}
+    maxAmount: 1
+    SizeInSlot: {x: 0.35, y: 0.35, z: 0.35}
+    Possible_Combinations:
+    - Combination_Name: R+G+B
+      combinable_id: 3
+      converted_id: 9
+      type: 0
+      Optional_Message: 
+    Damage: 0
+    Heal: 100
+    maxAmmo: 0
+    initialAmmo: 0
+    AmmoItemID: 0
+    AttackSClip: {fileID: 0}
+    NoAmmoSClip: {fileID: 0}
+    ReloadSClip: {fileID: 0}
+    Particles: []
+  - Name: Mixed Herb G+B
+    id: 6
+    type: 3
+    Icon: {fileID: -7930763851021446988, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c, type: 3}
+    BigIcon: {fileID: -7930763851021446988, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c,
+      type: 3}
+    Model: {fileID: 0}
+    maxAmount: 1
+    SizeInSlot: {x: 0.35, y: 0.35, z: 0.35}
+    Possible_Combinations:
+    - Combination_Name: G+G+B
+      combinable_id: 1
+      converted_id: 8
+      type: 0
+      Optional_Message: 
+    - Combination_Name: R+G+B
+      combinable_id: 2
+      converted_id: 9
+      type: 0
+      Optional_Message: 
+    Damage: 0
+    Heal: 25
+    maxAmmo: 0
+    initialAmmo: 0
+    AmmoItemID: 0
+    AttackSClip: {fileID: 0}
+    NoAmmoSClip: {fileID: 0}
+    ReloadSClip: {fileID: 0}
+    Particles: []
+  - Name: Mixed Herb G+G+G
+    id: 7
+    type: 2
+    Icon: {fileID: 7233263139212973112, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c, type: 3}
+    BigIcon: {fileID: 7233263139212973112, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c,
+      type: 3}
+    Model: {fileID: 0}
+    maxAmount: 1
+    SizeInSlot: {x: 0.35, y: 0.35, z: 0.35}
+    Possible_Combinations: []
+    Damage: 0
+    Heal: 75
+    maxAmmo: 0
+    initialAmmo: 0
+    AmmoItemID: 0
+    AttackSClip: {fileID: 0}
+    NoAmmoSClip: {fileID: 0}
+    ReloadSClip: {fileID: 0}
+    Particles: []
+  - Name: Mixed Herb G+G+B
+    id: 8
+    type: 3
+    Icon: {fileID: 6682995301382688886, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c, type: 3}
+    BigIcon: {fileID: 6682995301382688886, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c,
+      type: 3}
+    Model: {fileID: 0}
+    maxAmount: 1
+    SizeInSlot: {x: 0.35, y: 0.35, z: 0.35}
+    Possible_Combinations: []
+    Damage: 0
+    Heal: 50
+    maxAmmo: 0
+    initialAmmo: 0
+    AmmoItemID: 0
+    AttackSClip: {fileID: 0}
+    NoAmmoSClip: {fileID: 0}
+    ReloadSClip: {fileID: 0}
+    Particles: []
+  - Name: Mixed Herb G+R+B
+    id: 9
+    type: 3
+    Icon: {fileID: -1201234458481937760, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c, type: 3}
+    BigIcon: {fileID: -1201234458481937760, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c,
+      type: 3}
+    Model: {fileID: 0}
+    maxAmount: 1
+    SizeInSlot: {x: 0.35, y: 0.35, z: 0.35}
+    Possible_Combinations: []
+    Damage: 0
+    Heal: 100
+    maxAmmo: 0
+    initialAmmo: 0
+    AmmoItemID: 0
+    AttackSClip: {fileID: 0}
+    NoAmmoSClip: {fileID: 0}
+    ReloadSClip: {fileID: 0}
+    Particles: []
+  - Name: Mixed Herb G+R+B
+    id: 10
+    type: 3
+    Icon: {fileID: -1201234458481937760, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c, type: 3}
+    BigIcon: {fileID: -1201234458481937760, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c,
+      type: 3}
+    Model: {fileID: 0}
+    maxAmount: 1
+    SizeInSlot: {x: 0.35, y: 0.35, z: 0.35}
+    Possible_Combinations: []
+    Damage: 0
+    Heal: 0
+    maxAmmo: 0
+    initialAmmo: 0
+    AmmoItemID: 0
+    AttackSClip: {fileID: 0}
+    NoAmmoSClip: {fileID: 0}
+    ReloadSClip: {fileID: 0}
+    Particles: []
+  - Name: HandGun
+    id: 11
+    type: 0
+    Icon: {fileID: 9096408290801156165, guid: 95d756a766a607b479acfe7e38e5c819, type: 3}
+    BigIcon: {fileID: 6368338312363446196, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c,
+      type: 3}
+    Model: {fileID: 6947799494722345600, guid: e042239dde3ac86438d268d4df454ba0, type: 3}
+    maxAmount: 1
+    SizeInSlot: {x: 1, y: 1, z: 1}
+    Possible_Combinations:
+    - Combination_Name: Ammo2
+      combinable_id: 12
+      converted_id: 11
+      type: 1
+      Optional_Message: 
+    Damage: 0
+    Heal: 0
+    maxAmmo: 15
+    initialAmmo: 15
+    AmmoItemID: 12
+    AttackSClip: {fileID: 8300000, guid: 41eb96a0e32edde41b81cc0c5bf9745a, type: 3}
+    NoAmmoSClip: {fileID: 8300000, guid: 03bf5f0585438ed41a048360dea927de, type: 3}
+    ReloadSClip: {fileID: 8300000, guid: c5e23da308f0f1d4bbffd4badf45097a, type: 3}
+    Particles:
+    - {fileID: 7645209489959471911, guid: 5ef22521eff538f4685318aeb93dced1, type: 3}
+    - {fileID: 871029161496761063, guid: 20de4f499383d604c83c79bba742c121, type: 3}
+  - Name: HandGun Bullets
+    id: 12
+    type: 5
+    Icon: {fileID: 4827660834104771931, guid: 95d756a766a607b479acfe7e38e5c819, type: 3}
+    BigIcon: {fileID: -5291158757058041974, guid: 929b3be83dfb2ae45ad7ef7642ed6a9c,
+      type: 3}
+    Model: {fileID: 8614767488592699537, guid: f9606228f63cf95499cee13f50b0aea1, type: 3}
+    maxAmount: 210
+    SizeInSlot: {x: 1, y: 1, z: 1}
+    Possible_Combinations:
+    - Combination_Name: Ammo
+      combinable_id: 11
+      converted_id: 11
+      type: 1
+      Optional_Message: 
+    Damage: 0
+    Heal: 0
+    maxAmmo: 0
+    initialAmmo: 0
+    AmmoItemID: 0
+    AttackSClip: {fileID: 0}
+    NoAmmoSClip: {fileID: 0}
+    ReloadSClip: {fileID: 0}
+    Particles: []

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Music
+  - Enemy
+  - Bullet
+  - GlobalAP
+  - Interactable
+  - RoomCameras
+  - UI_Item
+  - UICursor
+  - EnemyBullet
+  - Room
+  - Drop
+  - Solid
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - IMCamera
+  - Char
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Bottom2
+    uniqueID: 1018782171
+    locked: 0
+  - name: Bottom
+    uniqueID: 4060512149
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Top
+    uniqueID: 3344486353
+    locked: 0

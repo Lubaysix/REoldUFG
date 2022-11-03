@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3289605160441549108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3289605160441549110}
+  - component: {fileID: 3289605160441549111}
+  m_Layer: 0
+  m_Name: Global Parameters Configurator (Must be on initial scene or the game won't
+    start correctly!)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3289605160441549110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3289605160441549108}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1000, y: 1000, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3289605160441549111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3289605160441549108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8542e3de03fbc5e459ccfafc73a56663, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controls:
+    T_Up: 2
+    T_Left: 0
+    T_Down: 3
+    T_Right: 1
+    T_Use: 4
+    T_Run: 5
+    T_Map: 7
+    T_Status: 6
+    T_Start: 8
+    T_Aim: 10
+    T_ChangeTarget: 11
+  Item_Database: {fileID: 11400000, guid: 82eb469bf2a200c4cbff015d98e0e341, type: 2}
